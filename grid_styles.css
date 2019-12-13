@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+span.row{
+    width: 100%;
+    clear: both;
+}
+span.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+span#row1{
+    display: none;
+}
+span#row2{
+    display: none;
+}
+span#row3{
+    display: none;
+}
+span#row4{
+    display: none;
+}
+span#row > img#NES:hover~span#row1 > #NES_info{
+    display: block;
+}
+span#row > img#SNES:hover~span#row1 > #SNES_info{
+    display: block;
+}
+span#row > img#N64:hover~span#row1 > #N64_info{
+    display: block;
+}
+span#row > img#GC:hover~span#row1 > #GC_info{
+    display: block;
+}
+span#row > img#Wii:hover~span#row1 > #Wii_info{
+    display: block;
+}
+span#row > img#U:hover~span#row1 > #U_info{
+    display: block;
+}
+span#row > img#Switch:hover~span#row1 > #Switch_info{
+    display: block;
+}
+span#row > img#GB:hover~span#row1 > #Gameboy_info{
+    display: block;
+}
+span#row > img#GBC:hover~span#row1 > #Color_info{
+    display: block;
+}
+span#row > img#GBA:hover~span#row1 > #Advance_info{
+    display: block;
+}
+span#row > img#DS:hover~span#row1 > #DS_info{
+    display: block;
+}
+span#row > img#3DS:hover~span#row1 > #3DS_info{
+    display: block;
+}

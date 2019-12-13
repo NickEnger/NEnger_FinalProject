@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+html{
+    background-color: blue;
+    font-family: 'Audiowide', cursive;
+}
+body{
+    background-color: white;
+    color: red;
+    width: 85%;
+}
+header > nav > ul > li{
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+header > nav > ul > li > a:visited, header > nav > ul > li > a:link{
+    text-decoration: none;
+    color: red;
+}
+header > nav > ul > li > a:hover, header > nav > ul > li > a:active{
+    text-decoration: none;
+}
+tr > ul >li{
+    list-style-image: url(PS_Logo.png);
+    width: 100%;
+}
+table{
+    text-align: center;
+    width: 50%;
+}
+img{
+    width: 25%;
+}
+footer{
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+html{
+    background-color: black;
+    font-family: 'Audiowide', cursive;
+}
+body{
+    background-color: white;
+    color: darkblue;
+    width: 85%;
+}
+header > nav > ul > li{
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+header > nav > ul > li > a:visited, header > nav > ul > li > a:link{
+    text-decoration: none;
+    color: darkblue;
+}
+header > nav > ul > li > a:hover, header > nav > ul > li > a:active{
+    text-decoration: none;
+}
+section{
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+table{
+    text-align: center;
+    width: 50%;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+#FirstTableHeader{
+    width: 5%;
+}
+#SecondTableHeader{
+    width: 35%;
+}
+.CompanyNames{
+    padding-top: 5px;
+}
+#MS{
+    width: 100%;
+    margin-top: 5mm;
+}
+#Sony{
+    width: 100%;
+}
+#Nintendo{
+    width: 100%;
+}
+footer{
+    text-align: center;
+}
